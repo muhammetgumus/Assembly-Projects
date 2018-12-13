@@ -4,7 +4,7 @@
 
 org 100h
 
-;In this project our goal is multiply two 32 bits numbers with each other
+;In this project our goal is multiply two 32 bits numbers with each other (11223344h and 55667788h )
 ;Firstly I divide numbers to 2 16 bits numbers then I multiply them part by part.
 ;After that I sum the getting results. (BE CAREFUL ABOUT DIGIT VALUES OF EACH PART) 
 ;Then store the final result in the memory
@@ -65,8 +65,6 @@ mov [2090h],0000h
 
 
 
-
-
 mov bx,[2080h] ; 
 mov ax,[2090h] ;
 add ax,bx
@@ -83,12 +81,6 @@ mov bx,[2086h]
 mov ax,[2096h]
 adc ax,bx
 mov [20A0h+6],ax
-
-
-
-
-
-
 
 ;;;;;;;;;;;;;;;;
 
@@ -111,16 +103,6 @@ mov bx,[2066h]
 mov ax,[20A0h+6]
 adc ax,bx
 mov [20B0h+6],ax
-
-
-
-
-
-
-
-
-
-
 
 ret
 
