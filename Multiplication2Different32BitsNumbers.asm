@@ -1,9 +1,4 @@
 
-; You may customize this and other start-up templates; 
-; The location of this template is c:\emu8086\inc\0_com_template.txt
-
-org 100h
-
 ;In this project our goal is multiply two 32 bits numbers with each other (11223344h and 55667788h )
 ;Firstly I divide numbers to 2 16 bits numbers then I multiply them part by part.
 ;After that I sum the getting results. (BE CAREFUL ABOUT DIGIT VALUES OF EACH PART) 
@@ -11,7 +6,7 @@ org 100h
 ;Final result in the [20B0h] location. 
   
 
-
+org 100h
 
 mov ax,a
 mov bx,d     ; a*d
