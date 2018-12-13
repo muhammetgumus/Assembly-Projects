@@ -8,7 +8,7 @@ org 100h
 ;Firstly I divide numbers to 2 16 bits numbers then I multiply them part by part.
 ;After that I sum the getting results. (BE CAREFUL ABOUT DIGIT VALUES OF EACH PART) 
 ;Then store the final result in the memory
-;Final result in the [20A0h] location. 
+;Final result in the [20B0h] location. 
   
 
 
