@@ -10,7 +10,6 @@ mov di,1103H
 
 
 mov cx,6
-;mov ax,0
    L1:
      CLD     
      lodsb
